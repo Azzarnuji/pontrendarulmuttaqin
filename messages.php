@@ -21,10 +21,10 @@ $mail->AddAddress("yapidacibarusah@gmail.com","yapidacibarusah@gmail.com");  //t
 $mail->MsgHTML($pesan);
 if ($mail->Send()){
     $mail->SmtpClose;
-    header("Location:index.php?statuscode=B");
+    header("Location:index.php?statuscode=001");
 }else{
     $mail->SmtpClose;
-    header("Location:index.php?statuscode=G");;
+    header("Location:index.php?statuscode=002");;
     
 }
 ?>
