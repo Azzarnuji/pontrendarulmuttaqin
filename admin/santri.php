@@ -395,7 +395,7 @@
                                         $dirname = "../assets/santri/";
                                         $images = glob($dirname."*.*");
                                         $NO = 1;
-                                        $imagesName = scandir($dirname,1);
+                                        $imagesName = array_diff(scandir($dirname), array('..','.'));
                                     ?>
                                     <?php foreach($images as $image):?>
                                         <?php foreach ($imagesName as $name):?>
