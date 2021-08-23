@@ -333,7 +333,13 @@
                             <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Anda Jika Ada">
                         </div>
                         <div class="mb-3">
+                            <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Nama Anda">
+                        </div>
+                        <div class="mb-3">
                             <input type="number" name="number" class="form-control" id="exampleInputPassword1" placeholder="Nomor Telepon Anda">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="judul" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Judul Pesan Anda">
                         </div>
                         <div class="form-floating mb-3">
                             <textarea class="form-control" name="msg" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
