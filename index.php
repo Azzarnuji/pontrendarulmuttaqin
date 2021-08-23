@@ -34,6 +34,12 @@
             text-align: center;
             transform: translate(2px,6px);
         }
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
     </style>
     <body id="page-top">
         <?php if (isset($_GET['statuscode'])):?>
@@ -332,6 +338,82 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/hajiludi.png" alt="..." />
                             <h4>H.Ludi Azhari</h4>
                             <p class="text-muted">Penerus Pontren Dan Yayasan Darul Muttaqin Tahun 2020 - Sekarang</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Para Pendiri Dan  Penerus Pontren Dan Yayasan Darul Muttaqin .</p></div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="text-center mt-4">
+                    <h2 class="section-heading text-uppercase">Ustadz / Tenaga Pengajar Pontren Darul Muttaqin</h2>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/bapa.jpg" alt="..." />
+                            <h4>Ustadz.H.Abdul Azis</h4>
+                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzacep.jpg" alt="..." />
+                            <h4>Ustadz Acep Wahyudin</h4>
+                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzakim.jpg" alt="..." />
+                            <h4>Ustadz Arif Mustaqim</h4>
+                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzjalal.jpg" alt="..." />
+                            <h4>Ustadz Ahmad Jalaludin</h4>
+                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzlucky.jpg" alt="..." />
+                            <h4>Ustadz Lucky Hamzah</h4>
+                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzsurya.jpg" alt="..." />
+                            <h4>Ustadz Surya</h4>
+                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzahnunuy.jpg" alt="..." />
+                            <h4>Ustadzah.HJ. Nunuy Rohmah</h4>
+                            <p class="text-muted">Ustadzah / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzahnia.jpg" alt="..." />
+                            <h4>Ustadzah Nia Ulumiah</h4>
+                            <p class="text-muted">Ustadzah / Tenaga Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
