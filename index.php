@@ -419,7 +419,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Para Pendiri Dan  Penerus Pontren Dan Yayasan Darul Muttaqin .</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Dewan Pengajar Yayasan Darul Muttaqin .</p></div>
                 </div>
             </div>
         </section>
