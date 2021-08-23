@@ -398,13 +398,15 @@
                                         $imagesName = scandir($dirname,1);
                                     ?>
                                     <?php foreach($images as $image):?>
+                                        <?php foreach ($imagesName as $name):?>
                                         <tbody>
                                             <tr>
                                                 <td><?=$NO++;?></td>
                                                 <td><?=$image;?></td>
-                                                <td><?php print_r($imagesName);?></td>
+                                                <td><?=$name;?></td>
                                             </tr>
                                         </tbody>
+                                        <?php endforeach;?>
                                     <?php endforeach;?>
                                 </table>
                             </div>
