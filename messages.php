@@ -20,8 +20,10 @@ $mail->Subject = $judul; //subyek email
 $mail->AddAddress("yapidacibarusah@gmail.com","yapidacibarusah@gmail.com");  //tujuan email
 $mail->MsgHTML($pesan);
 if ($mail->Send()){
+    $mail->SmtpClose;
     header("Location:index.php?statuscode=B");
 }else{
+    $mail->SmtpClose;
     header("Location:index.php?statuscode=G");;
     
 }
