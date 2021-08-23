@@ -401,8 +401,8 @@
                                         <tbody>
                                             <tr>
                                                 <td><?=$NO++;?></td>
-                                                <td><?=$dirname.$name;?></td>
                                                 <td><?=$name;?></td>
+                                                <td><?=$dirname.$name;?></td>
                                             </tr>
                                         </tbody>
                                         <?php endforeach;?>
