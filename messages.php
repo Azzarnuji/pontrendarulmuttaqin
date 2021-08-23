@@ -24,5 +24,6 @@ if ($mail->Send()){
 }else{
     header("Location:index.php?statuscode=G");;
     
-} 
+}
+header("Location:index.php");
 ?>
