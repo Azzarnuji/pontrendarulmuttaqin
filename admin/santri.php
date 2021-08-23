@@ -397,17 +397,15 @@
                                         $NO = 1;
                                         $imagesName = array_diff(scandir($dirname), array('..','.'));
                                     ?>
-                                    <?php foreach($images as $image):?>
                                         <?php foreach ($imagesName as $name):?>
                                         <tbody>
                                             <tr>
                                                 <td><?=$NO++;?></td>
-                                                <td><?=$image;?></td>
+                                                <td><?=$dirname.$name;?></td>
                                                 <td><?=$name;?></td>
                                             </tr>
                                         </tbody>
                                         <?php endforeach;?>
-                                    <?php endforeach;?>
                                 </table>
                             </div>
                         </div>
