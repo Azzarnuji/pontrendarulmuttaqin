@@ -1,5 +1,5 @@
 <?php
-$ekstensi =  array('png','jpg','jpeg','gif');
+$ekstensi =  array('png','jpg','jpeg','gif','JPG');
 $jumlahFile = count($_FILES['foto']['name']);
  
 for($x=0; $x<$jumlahFile; $x++){
