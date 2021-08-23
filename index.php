@@ -323,7 +323,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/akang2.jpg" alt="..." />
                             <h4>Alm.KH.Dadang Saepulloh</h4>
-                            <p class="text-muted">Penerus Pontren Dan Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Pendiri Sekaligus Penerus Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
