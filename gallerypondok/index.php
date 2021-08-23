@@ -101,7 +101,7 @@
         </header>
         <section class="page-section bg-light" id="services"> 
             <div class="container">
-            <h2 class="text-center">Gallery Santri</h4>
+            <h2 class="text-center">Gallery Pondok</h4>
             <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
