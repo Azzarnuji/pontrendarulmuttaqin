@@ -295,12 +295,12 @@
                         </div>
                         <div class="card-body">
                             <script>
-                                $(document).ready(function(){
-                                    function showModal(){
-                                        $('#ModalSantri').modal('show');
-                                    };
+                                
+                                function showModal(){
+                                    $('#ModalSantri').modal('show');
+                                };
 
-                                });
+                                
 
                             </script>
                             <div class="table-responsive">
