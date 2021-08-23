@@ -2,7 +2,6 @@
 $ekstensi =  array('png','jpg','jpeg','gif','JPG');
 $jumlahFile = count($_FILES['foto']['name']);
 
-var_dump($jumlahFile);
 
 for($x=0; $x<$jumlahFile; $x++){
 	$namafile = $_FILES['foto']['name'][$x];
