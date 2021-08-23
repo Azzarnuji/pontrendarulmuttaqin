@@ -9,8 +9,9 @@
 <body>
     
 </body>
+Testing
 <?php
-        $dirname = "../assets/santri/";
+        $dirname = "../../assets/santri/";
         $images = glob($dirname."*.jpg");
         $NO = 1;
 ?>
