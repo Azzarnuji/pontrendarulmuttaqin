@@ -302,7 +302,7 @@
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
-                                        <button type="button" onclick="showModal()" class="btn btn-primary btn-md">Tambah Data<i class="fas fa-plus"></i></button>
+                                        <button type="button" onclick="showModal()" class="btn btn-primary btn-md mb-4">Tambah Data<i class="fas fa-plus ml-2"></i></button>
                                         <tr>
                                             <th>No</th>
                                             <th>Nama File</th>
