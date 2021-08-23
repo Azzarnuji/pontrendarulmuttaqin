@@ -309,7 +309,7 @@
                             function getCount($folder){
 
                                 // Set the current working directory
-                                $directory = getcwd()."/assets/".$folder;
+                                $directory = getcwd()."../assets/".$folder;
 
                                 // Initialize filecount variavle
                                 $filecount = 0;
