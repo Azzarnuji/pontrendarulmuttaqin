@@ -137,6 +137,37 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-sm-8 mb-5">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/mi.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Sekolah MI Darul Muttaqin</div>
+                                <div class="portfolio-caption-subheading text-muted">Sekolah Pontren Darul Muttaqin</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-8 mb-5">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/siswami.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Siswa Dan Santri MI Darul Muttaqin</div>
+                                <div class="portfolio-caption-subheading text-muted">Siswa Dan Santri MI Darul Muttaqin</div>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="col-lg-6 col-sm-8 mb-5">
                         <!-- Portfolio item 3-->
@@ -191,8 +222,7 @@
                     <h2 class="section-heading text-uppercase">Tentang Kami</h2>
                     <h3 class="section-subheading text-muted">Latar Belakang Pontren Darul Muttaqin.</h3>
                 </div>
-                <ul class="">
-                    <li>
+                
                         <style>
                             .center{
                                 display: block;
@@ -212,7 +242,7 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid center" src="assets/img/about/ypd.jpeg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="subheading">Pondok Pesantren Darul Muttaqin</h4>
+                                <h4 class="subheading text-center">Pondok Pesantren Darul Muttaqin</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">Yayasan Darul Muttaqin (YAPIDA) pada awalnya adalah sebuah
                                 Pondok Pesantren yang didirikan oleh Tokoh Agama Cibarusah
@@ -231,10 +261,15 @@
                                 Karimah
                                 Terima kasih kepada masyarakat dan semua pihak yang telah
                                 memberikan dukungan dan kepercayaan demi tegaknya agama
-                                islam.</p></div>
+                                islam.</p>
+                            </div>
+                            <div class="timeline-heading mt-4">
+                                <h4 class="subheading text-center">Visi Yapida</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted text-center">"MEMBENTUK MANUSIA YANG MAMPU BERFIKIR ILMIAH, RELIGIUS DAN BERAKHLAQUL KARIMAH"</p>
+                            </div>
                         </div>
-                    </li>
-                </ul>
+                    
             </div>
         </section>
         <!-- Team-->
@@ -379,31 +414,7 @@
             </div>
         </div>
 
-        <!-- Modal 4 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Sekolah MI Darul Muttaqin</h2>
-                                    <p class="item-intro text-muted">Tampak Depan.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/mi.jpg" alt="..." />
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        
-                                        Kembali
-                                    </button>
-                                    <a href="assets/img/portfolio/sekolah.jpg" download="" class="btn btn-warning btn-xl text-uppercase">Download Image</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <!-- Modal 3 -->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
@@ -455,7 +466,59 @@
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>    
+        
+        <!-- Modal 5 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Sekolah MI Darul Muttaqin</h2>
+                                    <p class="item-intro text-muted">Tampak Depan.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/mi.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        
+                                        Kembali
+                                    </button>
+                                    <a href="assets/img/portfolio/sekolah.jpg" download="" class="btn btn-warning btn-xl text-uppercase">Download Image</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 6 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Sekolah MI Darul Muttaqin</h2>
+                                    <p class="item-intro text-muted">Tampak Depan.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/siswami.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        
+                                        Kembali
+                                    </button>
+                                    <a href="assets/img/portfolio/sekolah.jpg" download="" class="btn btn-warning btn-xl text-uppercase">Download Image</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
