@@ -349,7 +349,7 @@
             <hr>
             <div class="container">
                 <div class="text-center mt-4">
-                    <h2 class="section-heading text-uppercase">Ustadz / Tenaga Pengajar Pontren Darul Muttaqin</h2>
+                    <h2 class="section-heading text-uppercase">Dewan Pengajar Pontren Darul Muttaqin</h2>
                     
                 </div>
                 <div class="row">
@@ -357,7 +357,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/bapa.jpg" alt="..." />
                             <h4>Ustadz.H.Abdul Azis</h4>
-                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzacep.jpg" alt="..." />
                             <h4>Ustadz Acep Wahyudin</h4>
-                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzakim.jpg" alt="..." />
                             <h4>Ustadz Arif Mustaqim</h4>
-                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -381,7 +381,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzjalal.jpg" alt="..." />
                             <h4>Ustadz Ahmad Jalaludin</h4>
-                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -389,7 +389,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzlucky.jpg" alt="..." />
                             <h4>Ustadz Lucky Hamzah</h4>
-                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -397,7 +397,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzsurya.jpg" alt="..." />
                             <h4>Ustadz Surya</h4>
-                            <p class="text-muted">Ustadz / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -405,7 +405,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzahnunuy.jpg" alt="..." />
                             <h4>Ustadzah.HJ. Nunuy Rohmah</h4>
-                            <p class="text-muted">Ustadzah / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
@@ -413,7 +413,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzahnia.jpg" alt="..." />
                             <h4>Ustadzah Nia Ulumiah</h4>
-                            <p class="text-muted">Ustadzah / Tenaga Pengajar Yayasan Darul Muttaqin</p>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
                             
                         </div>
                     </div>
