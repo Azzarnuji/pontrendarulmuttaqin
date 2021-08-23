@@ -15,7 +15,7 @@ $mail->Port = 465;
 $mail->SMTPAuth = true;
 $mail->Username = "azzarnuji93@pontrendarulmuttaqin.com"; //user email
 $mail->Password = "2002-10-19"; //password email 
-$mail->SetFrom("azzarnuji93@pontrendarulmuttaqin.com","$nama_pengirim"); //set email pengirim
+$mail->SetFrom("$email_pengirim","$nama_pengirim"); //set email pengirim
 $mail->Subject = $judul; //subyek email
 $mail->AddAddress("yapidacibarusah@gmail.com","yapidacibarusah@gmail.com");  //tujuan email
 $mail->MsgHTML($pesan);
