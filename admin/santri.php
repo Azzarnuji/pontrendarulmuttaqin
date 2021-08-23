@@ -356,7 +356,17 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div class="container">
+                        <h2 style="text-align: center;">UPLOAD MULTI FILE PHP</h2>
+                            <form action="upload.php" method="post" enctype="multipart/form-data">			
+                                <div class="form-group">
+                                    <label>Foto :</label>
+                                    <input type="file" name="foto[]" required="required"  multiple />
+                                    <p style="color: red">Ekstensi yang diperbolehkan .png | .jpg | .jpeg | .gif</p>
+                                </div>			
+                                <input type="submit" name="" value="Simpan" class="btn btn-primary">
+                            </form>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
