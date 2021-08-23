@@ -11,8 +11,8 @@
 </body>
 Testing
 <?php
-        $dirname = "../../assets/santri/";
-        $images = glob($dirname."*.jpg");
+        $dirname = "../assets/santri/";
+        $images = glob($dirname."*.png");
         $NO = 1;
 ?>
         <?php foreach($images as $image):?>
