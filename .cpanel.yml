@@ -9,3 +9,4 @@ deployment:
     - /bin/cp -R messages.php $DEPLOYPATH
     - /bin/cp -R phpmailer $DEPLOYPATH
     - /bin/cp -R admin $DEPLOYPATH
+    - /bin/cp -R admin/css $DEPLOYPATH
