@@ -243,7 +243,7 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Gallery Santri Dan Pondok Pesantren Darul Muttaqin</div>
                                 <div class="portfolio-caption-subheading text-muted"></div>
-                                <a href="gallerysantri/" class="btn btn-primary btn-md">Gallery Santri</a>
+                                
                                 <a href="gallerypondok/" class="btn btn-primary btn-mda">Gallery Pontren</a>
                             </div>
                         </div>
