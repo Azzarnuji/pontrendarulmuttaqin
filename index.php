@@ -50,6 +50,19 @@
                             );
                     };
                 </script>
+            <?php elseif($_GET['statuscode'] == "gagal"):?>
+                <script>
+                    $(document).ready(function(){
+                        mulai();
+                    })
+                    function mulai(){
+                        Swal.fire(
+                                'Pesan Gagal Terkirim',
+                                'Ulangi Kembali :(',
+                                'error'
+                            );
+                    };
+                </script>
             <?php endif;?>
         <?php endif;?>
         <!-- Navigation-->
