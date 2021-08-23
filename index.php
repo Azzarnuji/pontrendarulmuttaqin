@@ -330,13 +330,13 @@
                 <div class="container">
                     <form action="messages.php" method="POST">
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Anda Jika Ada">
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Anda Jika Ada">
                         </div>
                         <div class="mb-3">
-                            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Nomor Telepon Anda">
+                            <input type="number" name="number" class="form-control" id="exampleInputPassword1" placeholder="Nomor Telepon Anda">
                         </div>
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <textarea class="form-control" name="msg" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                             <label for="floatingTextarea2">Pesan</label>
                             </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
