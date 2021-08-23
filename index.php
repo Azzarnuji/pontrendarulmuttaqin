@@ -401,6 +401,14 @@
                             
                         </div>
                     </div>
+                    <div class="col-lg-12">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ustadzbaedowi.jpg" alt="..." />
+                            <h4>Ustadz Baedowi</h4>
+                            <p class="text-muted">Dewan Pengajar Yayasan Darul Muttaqin</p>
+                            
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ustadzahnunuy.jpg" alt="..." />
