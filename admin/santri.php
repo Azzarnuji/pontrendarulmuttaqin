@@ -395,13 +395,14 @@
                                         $dirname = "../assets/santri/";
                                         $images = glob($dirname."*.*");
                                         $NO = 1;
+                                        $imagesName = scandir($dirname,1);
                                     ?>
                                     <?php foreach($images as $image):?>
                                         <tbody>
                                             <tr>
                                                 <td><?=$NO++;?></td>
                                                 <td><?=$image;?></td>
-                                                <td>Edinburgh</td>
+                                                <td><?=$imagesName;?></td>
                                             </tr>
                                         </tbody>
                                     <?php endforeach;?>
