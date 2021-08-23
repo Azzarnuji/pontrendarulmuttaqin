@@ -60,7 +60,6 @@
             
 
             <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
@@ -296,6 +295,7 @@
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <i class="fas fa-plus"></i>
                                     <thead>
                                         <tr>
                                             <th>No</th>
