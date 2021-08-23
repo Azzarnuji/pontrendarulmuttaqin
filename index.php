@@ -36,7 +36,7 @@
     </style>
     <body id="page-top">
         <?php if (isset($_GET['statuscode'])):?>
-            <?php if($_GET['statuscode']==001):?>
+            <?php if($_GET['statuscode'] == "001"):?>
                 <script>
                     Swal.fire(
                         'Pesan Terikirim',
