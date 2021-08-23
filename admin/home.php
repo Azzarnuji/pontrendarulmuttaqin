@@ -43,11 +43,11 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="home.php">
                     <span>Dashboard</span></a>
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="santri.php">
                     <span>Santri</span></a>
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="pondok.php">
                     <span>Pondok</span></a>   
             </li>
 
