@@ -319,7 +319,7 @@
                                 if( $files2 ) {
                                     $filecount = count($files2);
                                 }
-                                return $filecount;
+                                echo $filecount;
                             }
 
                         ?>
