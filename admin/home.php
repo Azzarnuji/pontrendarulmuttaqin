@@ -320,7 +320,7 @@
                                     $filecount = count($files2);
                                 }
 
-                                return $filecount . "files ";
+                                var_dump($filecount . "files ");
                             }
 
                         ?>
