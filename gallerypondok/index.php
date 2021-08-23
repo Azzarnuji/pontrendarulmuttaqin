@@ -16,7 +16,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aguafina+Script" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.css" integrity="sha256-yydPR4I9kVTwVawkyOisG2g5biRQnEpf2e4wWlidxZE=" crossorigin="anonymous">
-        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="https://pontrendarulmuttaqin.com/css/styles.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <style>
@@ -75,14 +75,14 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <!-- <a class="navbar-brand" href="#page-top"><img src="assets/img/ponpes.svg" alt="..." /></a> -->
-                <a href="../"><p class="text">Darul Muttaqin </p></a>  
+                <a href="https://pontrendarulmuttaqin.com/"><p class="text">Darul Muttaqin </p></a>  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://pontrendarulmuttaqin.com/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Gallery Pontren</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Pendiri Pontren</a></li>
@@ -119,7 +119,7 @@
                     </tr>
                 </tfoot>
                 <?php
-                    $dirname = "../assets/pondok/";
+                    $dirname = "pondok/";
                     $images = glob($dirname."*.jpg");
                     $NO = 1;
                     
@@ -146,7 +146,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="../js/scripts.js"></script>
+        <script src="https://pontrendarulmuttaqin.com/js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
