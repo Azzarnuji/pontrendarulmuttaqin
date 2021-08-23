@@ -319,7 +319,7 @@
                                 if( $files2 ) {
                                     $filecount = count($files2);
                                 }
-
+                                var_dump($directory);
                                 var_dump($filecount . "files ");
                             }
 
