@@ -293,10 +293,16 @@
                             <h6 class="m-0 font-weight-bold text-primary">DataTables Files Dan Directory</h6>
                         </div>
                         <div class="card-body">
+                            <script>
+                                function showModal(){
+                                    console.log("Berhsail");
+                                }
+
+                            </script>
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                <i class="fas fa-plus"></i>
                                     <thead>
+                                        <button type="button" onclick="showModal()" class="btn btn-primary btn-md">Tambah Data<i class="fas fa-plus"></i></button>
                                         <tr>
                                             <th>No</th>
                                             <th>Nama File</th>
