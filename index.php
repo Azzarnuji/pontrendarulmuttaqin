@@ -44,6 +44,8 @@
                         'success'
                         )
                 </script>
+            <?php endif;?>
+        <?php endif;?>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
