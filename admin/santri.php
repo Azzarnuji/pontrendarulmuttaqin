@@ -402,7 +402,7 @@
                                             <tr>
                                                 <td><?=$NO++;?></td>
                                                 <td><?=$image;?></td>
-                                                <td><?=$imagesName;?></td>
+                                                <td><?php print_r($imagesName);?></td>
                                             </tr>
                                         </tbody>
                                     <?php endforeach;?>
