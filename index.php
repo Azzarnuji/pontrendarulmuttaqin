@@ -59,7 +59,7 @@
             <div class="container">
                 <div class="masthead-subheading">Welcome To Pontren Darul Muttaqin</div>
                 <div class="masthead-heading text-uppercase">Ahlan Wa Sahlan</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Sistem Pengajian</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Sistem</a>
             </div>
         </header>
         <!-- Services-->
