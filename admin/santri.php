@@ -393,7 +393,7 @@
                                     </tfoot>
                                     <?php
                                         $dirname = "../assets/santri/";
-                                        $images = glob($dirname."*.png");
+                                        $images = glob($dirname."*.*");
                                         $NO = 1;
                                     ?>
                                     <?php foreach($images as $image):?>
