@@ -19,6 +19,10 @@ $mail->SetFrom("$email_pengirim","$nama_pengirim (Messages From Yapida Webmaster
 $mail->Subject = $judul; //subyek email
 $mail->AddAddress("yapidacibarusah@gmail.com","yapidacibarusah@gmail.com");  //tujuan email
 $mail->MsgHTML($pesan);
-if($mail->Send()) echo "Message has been sent";
-else echo "Failed to sending message";
+if ($mail->Send()){
+    header("Location: index.php?statuscode=200");
+}else{
+    header("Location: index.php?statuscode=404");;
+    
+} 
 ?>
