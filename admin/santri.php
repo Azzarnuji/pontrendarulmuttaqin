@@ -400,7 +400,7 @@
                                         <tbody>
                                             <tr>
                                                 <td><?=$NO++;?></td>
-                                                <td><?=$images;?></td>
+                                                <td><?=$image;?></td>
                                                 <td>Edinburgh</td>
                                             </tr>
                                         </tbody>
