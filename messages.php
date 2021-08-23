@@ -5,7 +5,7 @@ $nama_pengirim = $_POST['name'];
 $judul = $_POST['judul'];
 $nohp = $_POST['number'];
 $msg = $_POST['msg'];
-$pesan = "Nama Pengirim:$nama_pengirim\r\nEmail Pengirim:$email_pengirim\r\nNomor Hape Pengirim:$nohp\r\nPesan Pengirim :$msg";
+$pesan = "Nama Pengirim:$nama_pengirim<br>nEmail Pengirim:$email_pengirim<br>Nomor Hape Pengirim:$nohp<br>Pesan Pengirim :$msg";
 $mail = new PHPMailer; 
 $mail->IsSMTP();
 $mail->SMTPSecure = 'ssl'; 
