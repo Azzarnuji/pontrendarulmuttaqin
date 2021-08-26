@@ -42,35 +42,6 @@
         }
     </style>
     <body id="page-top">
-        <?php if (isset($_GET['statuscode'])):?>
-            <?php if($_GET['statuscode'] == "berhasil"):?>
-                <script>
-                    $(document).ready(function(){
-                        mulai();
-                    })
-                    function mulai(){
-                        Swal.fire(
-                                'Pesan Terikirim',
-                                'Terimakasih :)',
-                                'success'
-                            );
-                    };
-                </script>
-            <?php elseif($_GET['statuscode'] == "gagal"):?>
-                <script>
-                    $(document).ready(function(){
-                        mulai();
-                    })
-                    function mulai(){
-                        Swal.fire(
-                                'Pesan Gagal Terkirim',
-                                'Ulangi Kembali :(',
-                                'error'
-                            );
-                    };
-                </script>
-            <?php endif;?>
-        <?php endif;?>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
