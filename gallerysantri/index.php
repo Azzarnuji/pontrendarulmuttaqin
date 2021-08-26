@@ -102,7 +102,7 @@
                         <tr>
                             <td><?=$NO++;?></td>
                             <td><a href="<?=str_replace(' ','_', $dir);?>"><?=$dir;?></a></td>
-                            <td><a href="<?=str_replace(' ','_', $dir).".php";?>" class="btn btn-primary">Buka Folder</a></td>
+                            <td><a href="<?=str_replace(' ','_', $dir);?>" class="btn btn-primary">Buka Folder</a></td>
                         </tr>
                     </tbody>
                     <?php endforeach;?>
