@@ -73,6 +73,7 @@
         <section class="page-section bg-light" id="services"> 
             <div class="container">
             <h2 class="text-center">Gallery Santri</h4>
+            <a href="../" class="btn btn-primary mb-2">Kembali</a>
             <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
@@ -101,10 +102,10 @@
                     <tbody>
                         <tr>
                             <td><?=$NO++;?></td>
-                            <td><a href="<?=str_replace(' ','_', $dir);?>"><?=$dir;?></a></td>
+                            <td><a href="<?=str_replace(' ','_', $dir).".php";?>"><?=$dir;?></a></td>
                             <td><a href="<?=str_replace(' ','_', $dir).".php";?>" class="btn btn-primary">Buka Folder</a></td>
                         </tr>
-                    </tbody>
+                    </tbody
                     <?php endforeach;?>
             </table>
         </div>

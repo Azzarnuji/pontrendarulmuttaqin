@@ -72,13 +72,14 @@
         </header>
         <section class="page-section bg-light" id="services"> 
             <div class="container">
-            <h2 class="text-center">Gallery Santri</h4>
+            <h2 class="text-center">Gallery 17 Agutus</h4>
+            <a href="index.php" class="btn btn-primary mb-2">Kembali</a>
             <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                         <tr>
                         <th>No</th>
-                        <th>Nama Folder</th>
+                        <th>Nama File</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -90,19 +91,17 @@
                     </tr>
                 </tfoot>
                 <?php
+                    $dirname = "Pembagian_Hadiah/";
+                    $images = glob($dirname."*.jpg");
                     $NO = 1;
-                    function renameFile(){
-                        $dirname = array_filter(glob('*'),'is_dir');
-                        $change = str_replace('_',' ',$dirname);
-                        return $change;
-                    }
+                    
                 ?>
-                    <?php foreach (renameFile() as $dir):?>
+                    <?php foreach ($images as $image):?>
                     <tbody>
                         <tr>
                             <td><?=$NO++;?></td>
-                            <td><a href="<?=str_replace(' ','_', $dir);?>"><?=$dir;?></a></td>
-                            <td><a href="<?=str_replace(' ','_', $dir).".php";?>" class="btn btn-primary">Buka Folder</a></td>
+                            <td><a href="<?=$image;?>"><img class="img-thumbnail rounded" src="<?=$image;?>" height="300px" width="300px" /></a></td>
+                            <td><a href="<?=$image;?>" class="btn btn-primary" type="submit" name="dowmload" value="<?=$image;?>" download=""<?=$image;?>"">Download</a></td>
                         </tr>
                     </tbody>
                     <?php endforeach;?>
@@ -111,6 +110,9 @@
             </div>
        
         </section>
+
+
+
 
 
 
