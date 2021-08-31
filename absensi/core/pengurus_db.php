@@ -29,6 +29,18 @@ class pengurus_db extends Connection{
             return $result;
         }
     }
+    public function getDataApi($jenis_kelamin){
+        $jns = $this->dbh->quote($jenis_kelamin);
+        $query = "SELECT * FROM `absensi_santri` WHERE `jenis_kelamin`=$jns";
+        $this->stmt = $this->dbh->prepare($query);
+        $this->stmt->execute();
+        $result = $this->stmt->fetchAll(PDO::FETCH_ASSOC);
+        if(!$result){
+            return 0;
+        }else{
+            return $result;
+        }
+    }
     public function getDataAbsen(){
         $jns = $_SESSION['jenis_kelamin'];
         $rh_kobong = $_SESSION['id_pengurus'];

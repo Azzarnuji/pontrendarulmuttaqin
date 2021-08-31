@@ -42,6 +42,14 @@ if(isset($_GET['request'])){
         }else{
             header("Location:index.php?login=hapusgagal");
         }
+    }elseif($_GET['request']=='api'){
+        $apikey = "Yapida1993DarulMuttaqin";
+        if ($_GET['apikey'] != "$apiKey"){
+            header("Location:index.php?status=apigagal");
+        }else{
+            $_SESSION['apistatus'] = "diberikses";
+            header("Location:api/");
+        }
     }
 }
 
