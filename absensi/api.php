@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../core/Init.php';
+require_once 'core/Init.php';
 $app = new pengurus_db;
 $data = $app->getData();
 if ($_SESSION['login']!="Logged"){
