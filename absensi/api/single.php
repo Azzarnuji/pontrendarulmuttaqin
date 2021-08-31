@@ -121,7 +121,7 @@ if ($_SESSION['apistatus']!="diberiakses"){
     
                         $NO = 1;
                         ?>
-                        <?php foreach ($datalaki as $absen):?>
+                        <?php foreach ($data as $absen):?>
                         <tbody>
                             <tr>
                                 <td><?=$NO++;?></td>
