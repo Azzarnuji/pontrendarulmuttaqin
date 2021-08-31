@@ -147,22 +147,22 @@ if ($_SESSION['login']!="Logged"){
                                 </div>
                                 <div class="mb-3" id="tanggal">
                                     <label for="tanggal">Tanggal</label>
-                                    <input type="text" class="form-control" name="tanggal" required/>
+                                    <input type="text" class="form-control" name="tanggal" id="tanggalInput" required/>
                                 </div>
                                 <div class="mb-3" id="nama">
                                     <label for="nama_anggota">Nama Anggota Yang Tidak Ngaji</label>
                                     <div id="emailHelp" class="form-text">*Contoh Input Lebih Dari 1 Orang:<br>Azzar,Udin,Asep </div>
-                                    <input type="text" class="form-control" name="nama_anggota" required/>
+                                    <input type="text" class="form-control" name="nama_anggota" id="namaInput" required/>
                                 </div>
                                 <div class="mb-3" id="tidak_hadir_ngaji">
                                     <label for="exampleInputPassword1" class="form-label">Waktu Tidak Hadir Ngaji</label>
                                     <div id="emailHelp" class="form-text">*Contoh Input Lebih Dari 1 Orang:<br>Azzar=Subuh,Dzuhur||Udin=Dzuhur||Asep=Isya </div>
-                                    <input type="text" class="form-control" name="tidak_ngaji" id="password_pengurus" required>
+                                    <input type="text" class="form-control" name="tidak_ngaji" id="waktuInput" required>
                                 </div>
                                 <div class="mb-3" id="keterangan">
                                     <label for="tanggal">Keterangan</label>
                                     <div id="emailHelp" class="form-text text-break">*Contoh Input Lebih Dari 1 Orang:<br>Azzar=Subuh(Tidur),Dzuhur(Pulang)||Udin=Dzuhur(Pulang)||Asep=Isya(Tidur) </div>
-                                    <input type="text" class="form-control" name="keterangan" required/>
+                                    <input type="text" class="form-control" name="keterangan" id="ketInput" required/>
                                 </div>
                                 <button type="submit" class="btn btn-primary" id="btnLogin">Kirim</button>
                             </div>
@@ -221,9 +221,12 @@ if ($_SESSION['login']!="Logged"){
                         $('#tidak_hadir_ngaji').show();
                         $('#keterangan').show();
                     }else{
-                        $('#nama').prop('required',false).hide();
-                        $('#tidak_hadir_ngaji').prop('required',false).hide();
-                        $('#keterangan').prop('required',false).hide();
+                        $('#namaInput').prop('required',false);
+                        $('#waktuInput').prop('required',false);
+                        $('#ketInput').prop('required',false);
+                        $('#nama').hide();
+                        $('#tidak_hadir_ngaji').hide();
+                        $('#keterangan').hide();
                     }
                 })
                 $('#stsAbsen').click(function(){
