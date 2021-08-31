@@ -221,9 +221,9 @@ if ($_SESSION['login']!="Logged"){
                         $('#tidak_hadir_ngaji').show();
                         $('#keterangan').show();
                     }else{
-                        $('#nama').hide();
-                        $('#tidak_hadir_ngaji').hide();
-                        $('#keterangan').hide();
+                        $('#nama').prop('required',false).hide();
+                        $('#tidak_hadir_ngaji').prop('required',false).hide();
+                        $('#keterangan').prop('required',false).hide();
                     }
                 })
                 $('#stsAbsen').click(function(){
