@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pons6262/public_html/
-    - /bin/cp -R absensi $DEPLOYPATH
     - /bin/cp -R admin $DEPLOYPATH
     - /bin/cp -R gallerysantri $DEPLOYPATH
     - /bin/cp -R gallerypondok $DEPLOYPATH
