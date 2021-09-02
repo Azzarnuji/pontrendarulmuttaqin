@@ -7,6 +7,8 @@ $kobong = $_GET['kobong'];
 $data = $app->getDataApiSingle($jenis_kelamin,$kobong);
 if ($_GET['platform'] != "excel"){
     header("Location:../");
+}elseif($_GET['platform'] != "web"){
+    header("Location:../");
 }
 ?>
 <!DOCTYPE html>
