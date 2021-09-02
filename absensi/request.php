@@ -50,7 +50,7 @@ if(isset($_GET['request'])){
             $jenis_kelamin = $_GET['jenis_kelamin'];
             $kobong = $_GET['kobong'];
             $_SESSION['apistatus'] = "diberiakses";
-            header("Location:api/singel.php?jenis_kelamin=$jenis_kelamin&kobong=$kobong");
+            header("Location:api/single.php?jenis_kelamin=$jenis_kelamin&kobong=$kobong");
         }
     }
 }
