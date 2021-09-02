@@ -42,17 +42,18 @@ if(isset($_GET['request'])){
         }else{
             header("Location:index.php?login=hapusgagal");
         }
-    }elseif ($_GET['request']=='api'){
-        $apiKey = "Yapida1993DarulMuttaqin";
-        if ($_GET['apikey'] != "$apiKey"){
-            header("Location:index.php?status=apigagal");
-        }else{
-            $jenis_kelamin = $_GET['jenis_kelamin'];
-            $kobong = $_GET['kobong'];
-            $_SESSION['apistatus'] = "diberiakses";
-            header("Location:api/single.php?jenis_kelamin=$jenis_kelamin&kobong=$kobong");
-        }
     }
+    // elseif ($_GET['request']=='api'){
+    //     $apiKey = "Yapida1993DarulMuttaqin";
+    //     if ($_GET['apikey'] != "$apiKey"){
+    //         header("Location:index.php?status=apigagal");
+    //     }else{
+    //         $jenis_kelamin = $_GET['jenis_kelamin'];
+    //         $kobong = $_GET['kobong'];
+    //         $_SESSION['apistatus'] = "diberiakses";
+    //         header("Location:api/single.php?jenis_kelamin=$jenis_kelamin&kobong=$kobong");
+    //     }
+    // }
 }
 
 ?>
