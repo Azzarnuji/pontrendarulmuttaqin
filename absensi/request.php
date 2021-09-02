@@ -47,8 +47,10 @@ if(isset($_GET['request'])){
         if ($_GET['apikey'] != "$apiKey"){
             header("Location:index.php?status=apigagal");
         }else{
+            $jenis_kelamin = $_GET['jenis_kelamin'];
+            $kobong = $_GET['kobong'];
             $_SESSION['apistatus'] = "diberiakses";
-            header("Location:api/");
+            header("Location:api/singel.php?jenis_kelamin=$jenis_kelamin&kobong=$kobong");
         }
     }
 }
