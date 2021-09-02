@@ -5,7 +5,7 @@ $app = new pengurus_db;
 $jenis_kelamin = $_GET['jenis_kelamin'];
 $kobong = $_GET['kobong'];
 $data = $app->getDataApiSingle($jenis_kelamin,$kobong);
-if ($_SESSION['apistatus']!="diberiakses"){
+if ($_GET['platform'] != "excel"){
     header("Location:../");
 }
 ?>
