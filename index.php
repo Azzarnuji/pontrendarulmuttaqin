@@ -241,10 +241,10 @@
                         <!-- Portfolio item 4-->
                         <div class="portfolio-item">
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Gallery Pondok Pesantren Darul Muttaqin</div>
+                                <div class="portfolio-caption-heading">Berita / Kegiatan Pondok Pesantren Darul Muttaqin</div>
                                 <div class="portfolio-caption-subheading text-muted"></div>
                                 
-                                <a href="gallerypondok/" class="btn btn-primary btn-mda">Gallery Pontren</a>
+                                <a href="https://kegiatan.pontrendarulmuttaqin.com/" class="btn btn-primary btn-mda">Berita / Kegiatan Pontren</a>
                             </div>
                         </div>
                     </div>  
