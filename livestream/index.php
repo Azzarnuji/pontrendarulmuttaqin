@@ -116,7 +116,8 @@
                     iframe{
                         display: block;
                         width: 400px;
-                        height: 500px;
+                        height: 270px;
+                        margin-bottom: 0;
                         
                     }
                     /* iframe{
@@ -125,8 +126,8 @@
                     } */
                     </style>
 
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fazzarnuji.azzarnuji.526%2Fvideos%2F821245511886744%2F&show_text=true&width=560&t=0" style="display:block;border:none;overflow:hidden;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
-
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fazzarnuji.azzarnuji.526%2Fvideos%2F821245511886744%2F&show_text=true&width=560&t=0"  style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe> 
+                <a href="https://www.facebook.com/100063943605904/videos/821245511886744/" class="btn btn-primary mb-4">Buka Di Facebook</a>
             
 
         </section>
