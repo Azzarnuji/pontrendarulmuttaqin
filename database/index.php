@@ -1,5 +1,6 @@
 <?php
 require_once "function/Init.php";
+var_dump($_SERVER);
 $query = new pengurus_db;
 if (isset($_REQUEST['conn'])){
     switch ($_SERVER['REQUEST_METHOD']){
