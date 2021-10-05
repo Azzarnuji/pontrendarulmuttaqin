@@ -1,4 +1,9 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: text/html; charset=UTF-8");
+header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Max-Age: 3600");
+header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 require_once "function/Init.php";
 var_dump($_SERVER);
 $query = new pengurus_db;
@@ -15,7 +20,7 @@ if (isset($_REQUEST['conn'])){
             var_dump($_REQUEST);
             echo "OPTIONS";
             break;
-            
+
     }
 }else{
     echo "NO CONNECTION";
