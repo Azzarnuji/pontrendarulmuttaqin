@@ -9,6 +9,13 @@ protected $dataDb =
     "db"=>"pons6262_absen_input",
     "driver"=>"mysql"
 ];
+// [
+//     "username"=>"HostLokal",
+//     "password"=>"Azzar-1002",
+//     "host"=>"localhost",
+//     "db"=>"absen_input",
+//     "driver"=>"mysql"
+// ];
 }
 
 define("KEY","Azzar");

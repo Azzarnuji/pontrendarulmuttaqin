@@ -15,16 +15,56 @@ if (isset($_REQUEST['conn'])){
             break;
         case "POST":
             unset($_REQUEST['conn']);
-            var_dump($_REQUEST);
+            // var_dump($_REQUEST['action']);
+            $key = checkKey($_REQUEST['key']);
+            if ($key != true){
+                echo "ERROR KEY NOT ALLOWED";
+                return false;
+            }
+            $cek = checkAction($_REQUEST['action']);
+            if ($cek == "Login"){
+                // echo $cek;
+                unset($_REQUEST['action']);
+                $log = LogIn($_REQUEST['name'],$_REQUEST['password']);
+                echo json_encode($log);
+            }
             break;
-        default:
-            echo "Method Not Allowed";
+        case "OPTIONS":
+            var_dump($_REQUEST);
+            echo "OPTIONS";
             break;
 
     }
 }else{
     echo "NO CONNECTION";
 }
+
+
+
+
+function checkKey($key){
+    if ($key == KEY){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function checkAction($action){
+    switch ($action){
+        case "login";
+            return "Login";
+    }
+}
+
+function LogIn($username,$password){
+    global $query;
+    $Login = $query->Login($username,$password);
+    return $Login;
+}
+
+
+
 // if ($_SERVER['REQUEST_METHOD'] == "GET"){
 //     echo "GET";
 // }elseif ($_SERVER['REQUEST_METHOD'] == "POST"){
