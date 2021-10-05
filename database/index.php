@@ -11,7 +11,11 @@ if (isset($_REQUEST['conn'])){
             unset($_REQUEST['conn']);
             var_dump($_REQUEST);
             break;
-
+        case "OPTIONS":
+            var_dump($_REQUEST);
+            echo "OPTIONS";
+            break;
+            
     }
 }else{
     echo "NO CONNECTION";
