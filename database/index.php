@@ -7,7 +7,6 @@ header("Access-Control-Allow-Methods: GET,POST");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 require_once "function/Init.php";
-var_dump($_SERVER);
 $query = new pengurus_db;
 if (isset($_REQUEST['conn'])){
     switch ($_SERVER['REQUEST_METHOD']){
