@@ -15,7 +15,7 @@ if (isset($_REQUEST['conn'])){
             break;
         case "POST":
             unset($_REQUEST['conn']);
-            var_dump($_REQUEST);
+            var_dump($_REQUEST[1]);
             break;
         default:
             echo "Method Not Allowed";
