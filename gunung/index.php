@@ -80,7 +80,7 @@
                             <option value="FULL">FULL</option>
                             <option value="KOMPRES">KOMPRES</option>
                         </select>
-                        <button type="submit" class="btn btn-primary mt-5">OKE</button>
+                        <button type="submit" class="btn btn-primary mt-5" id="send">OKE</button>
                     </form>
                 <!-- <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
@@ -118,7 +118,29 @@
                 </div>
             </div>
             <script>
+                var send = $('#send');
                 var id = $('#resolusi');
+                send.on("click",function(event){
+                    event.preventDefault();
+                    var value = id.val();
+                    if (value == "FULL"){
+                        $.ajax({
+                            url: "full.php",
+                            method: "GET",
+                            success: function(data){
+                                location.replace("full.php");
+                            }
+                        })
+                    }else if(value == "KOMPRES"){
+                        $.ajax({
+                            url: "compress.php",
+                            method: "GET",
+                            success: function(data){
+                                location.replace("compress.php");
+                            }
+                        })
+                    }
+                })
                 id.on("click",function(){
                     var value = id.val();
 
@@ -139,8 +161,6 @@
                             }
                         })
                     }
-                    console.info(id.val());
-
                 });
             </script>
         </section>
