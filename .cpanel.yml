@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pons6262/public_html/
+    - /bin/cp -R gunung $DEPLOYPATH
     - /bin/cp -R database $DEPLOYPATH
     - /bin/cp -R haul $DEPLOYPATH
     - /bin/cp -R livestream $DEPLOYPATH
