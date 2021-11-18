@@ -1,6 +1,6 @@
 <?php
 namespace Services;
-require_once '../src/JWT.php';
+require_once 'src/JWT.php';
 require_once 'database.php';
 use Firebase\JWT\JWT;
 use Databases\Database;
