@@ -3,10 +3,10 @@ class config{
 
 protected $dataDb = 
 [
-    "username"=>"pons6262_WebMaster",
+    "username"=>"pons6262_pontren_admin",
     "password"=>"Azzar-1002",
     "host"=>"localhost",
-    "db"=>"pons6262_absen_input",
+    "db"=>"pons6262_pontren",
     "driver"=>"mysql"
 ];
 // [
