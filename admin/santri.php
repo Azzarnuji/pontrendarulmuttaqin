@@ -51,7 +51,7 @@
                     <span>Dashboard</span></a>
                 <a class="nav-link" href="santri.php">
                     <span>Santri</span></a>
-                <a class="nav-link" href="pondok.php">
+                <a class="nav-link" href="data_guru.php">
                     <span>Pondok</span></a>   
             </li>
 

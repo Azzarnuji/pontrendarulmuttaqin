@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Admin Pontren</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -26,10 +26,8 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
@@ -47,8 +45,8 @@
                     <span>Dashboard</span></a>
                 <a class="nav-link" href="santri.php">
                     <span>Santri</span></a>
-                <a class="nav-link" href="pondok.php">
-                    <span>Pondok</span></a>   
+                <a class="nav-link" href="data_guru.php">
+                    <span>Data Guru</span></a>
             </li>
 
             <!-- Divider -->
@@ -371,7 +369,6 @@
                                 <a class="btn btn-primary btn-lg" href="#" role="button">Mari Lihat</a>
                             </p>
                         </div>
-
                     </div>
                     
 
