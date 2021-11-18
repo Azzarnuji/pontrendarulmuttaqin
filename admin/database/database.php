@@ -1,6 +1,6 @@
 <?php
 namespace Databases;
-require_once __DIR__. 'config.php';
+require_once 'config.php';
 use function Configs\getConfig;
 use PDO;
 class Database{
