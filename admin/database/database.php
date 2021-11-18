@@ -68,4 +68,15 @@ class Database{
         }
 
     }
+
+    public static function deleteData(string $id):string|bool{
+        $query = "DELETE FROM `data_guru` WHERE `data_guru`.`id_guru`='$id'";
+        self::$stmt = self::$dbh->prepare($query);
+        $exe = self::$stmt->execute();
+        if($exe){
+            return "berhasil";
+        }else{
+            return "gagal";
+        }
+    }
 }

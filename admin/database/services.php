@@ -13,7 +13,7 @@ class Session{
     }
 }
 class Data{
-    public function __construct(public $data)
+    public function __construct(public $data, public string $status)
     {
     }
 }
@@ -54,18 +54,29 @@ class ServicesManager{
     public static function getDataGuruAll():Data{
         $getData = Database::getDataGuruAll();
         if ($getData){
-            return new Data(data: $getData);
+            return new Data(data: $getData, status: "Berhasil");
         }else{
-            return "None";
+            return new Data(data:"None", status: "Gagal");
         }
     }
 
     public static function addDataGuru(string $nama,string $pt, string $ttl):string{
-        $add = $addData = Database::addDataGuru($nama,$pt,$ttl);
+        $add = Database::addDataGuru($nama,$pt,$ttl);
         if($add){
-            header("Location: ../admin/data_guru.php");
+            $data = new Data(data: "Berhasil Tambah", status: "Berhasil");
+            header("Location: ../admin/data_guru.php?message=".$data->data);
         }else{
-            return "Gagal $add";
+            return new Data(data:"Data None", status: "Gagal");
+        }
+    }
+
+    public static function deleteData(string $id):string{
+        $delete = Database::deleteData($id);
+        if($delete){
+            $data = new Data(data: "Berhasil Hapus", status: "Berhasil");
+            header("Location: ../admin/data_guru.php?message=".$data->data);
+        }else{
+            return "Gagal $delete";
         }
     }
 }

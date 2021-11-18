@@ -2,12 +2,25 @@
 require_once 'database/init.php';
 use Services\ServicesManager as SM;
 $message = "";
+if (isset($_REQUEST['message'])){
+    $message = $_REQUEST['message'];
+
+}
 if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $Add = SM::addDataGuru($_REQUEST['nama_guru'],$_REQUEST['pt_guru'],$_REQUEST['ttl_guru']);
     if($Add){
-        $message = "Berhasil Tambah Data";
+        $message = $_REQUEST['message'];
     }else{
         $message = "GAGAl";
+    }
+}elseif ($_SERVER['REQUEST_METHOD'] == "GET"){
+    if (isset($_REQUEST['id'])){
+        $delete = SM::deleteData($_REQUEST['id']);
+        if ($delete){
+            $message = "Data Berhasil Di Hapus";
+        }else{
+            $message = "GAGAl HAPUS";
+        }
     }
 }
 ?>
@@ -66,11 +79,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+            <div class="sidebar-brand-text mx-3">Admin Pontren <sup>1</sup></div>
         </a>
 
         <!-- Divider -->
@@ -345,34 +358,42 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
                     ?>
                     <!-- Content Row -->
                     <div class="col-xl-12 col-md-12 ">
-                        <?php if($message):?>
+                        <?php if($message != ""):?>
                             <h2><?=$message;?></h2>
                         <?php endif;?>
                         <hr>
-                        <button type="button" class="btn btn-primary" id="btnTambahData">Tambah Data</button>
-                        <table class="table" id="data_guru">
+                            <button type="button" class="btn btn-primary" id="btnTambahData">Tambah Data</button>
+                            <table class="table" id="data_guru">
                             <thead class="thead-dark">
                             <tr>
                                 <th scope="col">No</th>
                                 <th scope="col">Nama</th>
                                 <th scope="col">Pendidikan Terkahir</th>
                                 <th scope="col">Tanggal Lahir</th>
+                                <th scope="col">Aksi</th>
                             </tr>
                             </thead>
                             <?php $NO = 1;?>
                             <tbody>
-                            <?php foreach ($data as $dt):?>
-                            <tr>
-                                <th scope="row"><?=$NO++;?></th>
-                                <td><?=$dt['nama_guru'];?></td>
-                                <td><?=$dt['pendidikan_terakhir'];?></td>
-                                <td><?=$dt['tanggal_lahir'];?></td>
+                            <?php if ($data != "None"):?>
+                                <?php foreach ($data as $dt):?>
+                                <tr>
+                                    <th scope="row"><?=$NO++;?></th>
+                                    <td><?=$dt['nama_guru'];?></td>
+                                    <td><?=$dt['pendidikan_terakhir'];?></td>
+                                    <td><?=$dt['tanggal_lahir'];?></td>
+                                    <td><a href="?action=delete&id=<?=$dt['id_guru'];?>" class="btn btn-primary" id="delete">Hapus</a></td>
 
-                            </tr>
-                            <?php endforeach;?>
+                                </tr>
+                                <?php endforeach;?>
+                            <?php else:?>
+                                <tr>
+                                    <td colspan="4"><h1>NO DATA</h1></td>
+
+                                </tr>
+                            <?php endif;?>
                             </tbody>
-
-                        </table>
+                            </table>
                     </div>
 
 
