@@ -444,7 +444,7 @@ use Services\ServicesManager as SM;
             <h2 class="section-heading">Dewan Pengajar MTs Dan SMA</h2>
         </div>
         <hr>
-        <table class="table" id="guru" data-order='[[1,"desc"]]'>
+        <table class="table" id="guru">
             <thead class="table-dark">
             <tr>
                 <th scope="col">No</th>
