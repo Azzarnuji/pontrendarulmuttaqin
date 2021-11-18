@@ -1,5 +1,5 @@
 <?php
-require_once '../database/init.php';
+require_once 'database/init.php';
 use Services\ServicesManager as SM;
 $message = "";
 if ($_SERVER['REQUEST_METHOD'] == "POST"){
