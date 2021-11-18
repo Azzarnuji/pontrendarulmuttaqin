@@ -47,7 +47,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="home.php">
+                <a class="nav-link" href="index.php">
                     <span>Dashboard</span></a>
                 <a class="nav-link" href="santri.php">
                     <span>Santri</span></a>

@@ -2,14 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pons6262/public_html/
-    - /bin/cp -R gunung $DEPLOYPATH
     - /bin/cp -R database $DEPLOYPATH
-    - /bin/cp -R haul $DEPLOYPATH
-    - /bin/cp -R livestream $DEPLOYPATH
-    - /bin/cp -R absensi $DEPLOYPATH
     - /bin/cp -R admin $DEPLOYPATH
-    - /bin/cp -R gallerysantri $DEPLOYPATH
-    - /bin/cp -R gallerypondok $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
