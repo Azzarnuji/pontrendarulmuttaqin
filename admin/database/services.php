@@ -74,7 +74,7 @@ class ServicesManager{
         $delete = Database::deleteData($id);
         if($delete){
             $data = new Data(data: "Berhasil Hapus", status: "Berhasil");
-            header("Location: ../admin/data_guru.php?message=".$data->data);
+            header("Location: ../../data_guru.php?message=".$data->data);
         }else{
             return "Gagal $delete";
         }
