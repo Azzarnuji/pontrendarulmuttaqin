@@ -64,7 +64,7 @@ class ServicesManager{
         $add = Database::addDataGuru($nama,$pt,$ttl);
         if($add){
             $data = new Data(data: "Berhasil Tambah", status: "Berhasil");
-            header("Location: ../admin/data_guru.php?message=".$data->data);
+            header("Location: ../../data_guru.php?message=".$data->data);
         }else{
             return new Data(data:"Data None", status: "Gagal");
         }
